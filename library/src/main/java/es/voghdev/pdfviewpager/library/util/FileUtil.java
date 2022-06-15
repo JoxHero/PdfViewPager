@@ -42,6 +42,7 @@ public class FileUtil {
     }
 
     public static String extractFileNameFromURL(String url) {
-        return url.substring(url.lastIndexOf('/') + 1);
+        //return url.substring(url.lastIndexOf('/') + 1);
+        return System.currentTimeMillis() + "-pdf";
     }
 }
